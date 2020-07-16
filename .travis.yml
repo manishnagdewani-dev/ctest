@@ -1,5 +1,7 @@
+os: osx
 language: c
 compiler:
   - clang
-install: make
-os: osx
+  - gcc
+script: make
+
