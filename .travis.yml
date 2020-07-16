@@ -1,5 +1,5 @@
 language: c
 compiler:
   - clang
-build: make
+script: make
 os: osX
